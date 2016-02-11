@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :url_shorteners
+
+  root 'url_shorteners#home'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
