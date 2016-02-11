@@ -4,7 +4,7 @@ class UrlShortenersController < ApplicationController
   # GET /url_shorteners
   # GET /url_shorteners.json
   def index
-    @url_shorteners = UrlShortener.all
+    @url = UrlShortener.all
   end
 
   # GET /url_shorteners/1
@@ -62,6 +62,9 @@ class UrlShortenersController < ApplicationController
   end
 
   def home
+  end
+
+  def redirect
   end
 
   private
