@@ -7,8 +7,7 @@
 
 <p>
   <strong>Shortendurl:</strong>
-  <%= @url_shortener.ShortendURL %>
+  (my url here)<%= @url_shortener.ShortendURL %>
 </p>
 
-<%= link_to 'Edit', edit_url_shortener_path(@url_shortener) %> |
-<%= link_to 'Back', url_shorteners_path %>
+<%= button_to 'Back',  {controller: 'url_shorteners', action: 'home'}, :method => :get %>
