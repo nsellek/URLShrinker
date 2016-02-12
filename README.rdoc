@@ -3,8 +3,6 @@
 This is an app that will take in any size URL and shrink it down to a much more manageable size.
 It is meant to be used for character constrained sites such as Twitter.
 
-Currently a work in progress.
-
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
